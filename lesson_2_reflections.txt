@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+To start tracking the repository we need the .git file to exist.  Initializing the repository creates this file.  Once this is done we can make commits and start making use of the version control system.  Note that initially the files will be untracked and the result of 'git log' will not include any commits -- the user has to choose when to make commits.
