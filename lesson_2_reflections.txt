@@ -17,3 +17,7 @@ Branches would be helpful any time experimental features were being explored.  T
 How do the diagrams help you visualize the branch structure?
 
 Branches organize the history of git commits visually and the diagrams also reflect the terminology chosen for the git commands themselves.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging branches allows commits from both branches to be reached by the new, merged branch.  The diagram illustrates this and makes it clear that the commits in each branch will be retained.
