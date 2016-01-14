@@ -13,3 +13,7 @@ By comparing the staging area to the working directory, and also to the current 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches would be helpful any time experimental features were being explored.  They would help by allowing complete freedom in elaborating upon or reinventing the code while also preserving an intact, working version.
+
+How do the diagrams help you visualize the branch structure?
+
+Branches organize the history of git commits visually and the diagrams also reflect the terminology chosen for the git commands themselves.
