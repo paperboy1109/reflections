@@ -17,7 +17,7 @@ In the case of git, programmers are being accommodated, so connections between f
 
 Q: How can you use the commands git log and git diff to view the history of files?
 
-Use git lot from within the directory of the repository.  To use git diff specify the two commits to compare using their IDs.
+Use git log from within the directory of the repository.  To use git diff specify the two commits to compare using their IDs.
 
 Q: How might using version control make you more confident to make changes that could break something?
 
