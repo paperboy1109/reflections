@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 Using a remote repository would be ideal if you use multiple machines to do your coding.  It would also be very useful for projects that have lots of contributors.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Changes can represent incomplete progress, so it's best if the programmer decides when to sync the changes that are made.  For instance, a new feature may require a series of changes (done on a local machine), and waiting to update the remote until all the changes were present might be safer or just less confusing for anyone who might also be using the code on the remote.  Conversely, the remote may be getting updates from one or more contributors and a given user might want to wait until the updates are complete before pulling the code to his or her local machine.  
