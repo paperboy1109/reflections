@@ -13,3 +13,7 @@ Forking is specific to GitHub.  A repository is forked from a GitHub location to
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit comes from knowing how to handle cases where there have been changes made locally and to the remote.  In such cases, the two versions of the project are out-of-sync and knowing (locally) the last known state of the remote makes it possible to understand the ancestor relationship between the locally made updates on the one hand, and the updates on the remote.  In short, merging the two sets of changes becomes easier thanks to knowing the most recent state of "origin master."
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Now that I'm more familiar with using Git and GitHub, I'm not sure anything would be easier without version control and the tools Git makes available for making and merging updates to the code.  Rather, it is harder to track and evaluate changes from multiple users without Git and GitHub, and keeping a collection of older code files to keep track of the version history is much less efficient than just looking through a commit history in Git.  Perhaps if you had a very large repository, consisting of many files and thus requiring large downloads, it might be easier to just work on updates locally and save earlier versions of the project locally -- but this would still cut back on the ability for multiple collaborators to make individual contributions.
